@@ -24,7 +24,7 @@ A fun and interactive word scramble game that challenges users to guess a scramb
 
 ---
 
-**Usage**
+## Usage
 Start a New Game: Click the "Random" button to generate a new scrambled word for the user to solve.
 Guess the Word: Type letters into the input fields. The correct letter will appear in the corresponding input box.
 Mistakes and Tries: The game tracks your mistakes and tries. After 5 tries, the game will reset.
@@ -32,7 +32,7 @@ Game Reset: You can reset the game at any time by clicking the "Reset" button. A
 Success: If you guess the word correctly, an alert will notify you of your success!
 
 ---
-Code Overview
+## Code Overview
 Main Components:
 **HTML**: The structure of the game UI, including containers for the scrambled word, input fields, and buttons for starting and resetting the game.
 **CSS**: Provides the styling for the game interface, including layout, colours, and animations for the game.
@@ -40,7 +40,7 @@ Main Components:
 Handles user input and provides feedback based on correct/incorrect guesses.
 
 ---
-*Functions*
+## Functions
 **shuffleArray(array)**
   *Purpose*: Shuffles an array of elements randomly.
   *Parameters*:
@@ -70,10 +70,10 @@ Handles user input and provides feedback based on correct/incorrect guesses.
   *Returns: None
   
 
-Contact
+## Contact
 For questions or feedback, feel free to open an issue or contact me directly at [DevOluwaseun@gmail.com].
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
