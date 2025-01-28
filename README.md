@@ -18,56 +18,56 @@ A fun and interactive word scramble game that challenges users to guess a scramb
 
 ## Installation
 
-**1.** Clone the repository to your local machine:
+**1.** Clone the repository to your local machine:  https://github.com/DevOluwaseun/GuessTheWord.git
 
 **2.** Open the index.html file in your browser to play the game.
-
+    
 ---
 
 ## Usage
-Start a New Game: Click the "Random" button to generate a new scrambled word for the user to solve.
-Guess the Word: Type letters into the input fields. The correct letter will appear in the corresponding input box.
-Mistakes and Tries: The game tracks your mistakes and tries. After 5 tries, the game will reset.
-Game Reset: You can reset the game at any time by clicking the "Reset" button. All input fields will be cleared, and the first input field will be re-enabled for the next round.
-Success: If you guess the word correctly, an alert will notify you of your success!
+- Start a New Game: Click the "Random" button to generate a new scrambled word for the user to solve.
+- Guess the Word: Type letters into the input fields. The correct letter will appear in the corresponding input box.
+- Mistakes and Tries: The game tracks your mistakes and tries. After 5 tries, the game will reset.
+- Game Reset: You can reset the game at any time by clicking the "Reset" button. All input fields will be cleared, and the first input field will be re-enabled for the next round.
+- Success: If you guess the word correctly, an alert will notify you of your success!
 
 ---
 ## Code Overview
 Main Components:
-**HTML**: The structure of the game UI, including containers for the scrambled word, input fields, and buttons for starting and resetting the game.
-**CSS**: Provides the styling for the game interface, including layout, colours, and animations for the game.
-**JavaScript**: Manages the game logic, including word shuffling, input validation, tracking tries and mistakes, and updating the UI dynamically.
-Handles user input and provides feedback based on correct/incorrect guesses.
+
+- **HTML**: The structure of the game UI, including containers for the scrambled word, input fields, and buttons for starting and resetting the game.
+- **CSS**: Provides the styling for the game interface, including layout, colours, and animations for the game.
+- **JavaScript**: Manages the game logic, including word shuffling, input validation, tracking tries and mistakes, and updating the UI dynamically. Handles user input and provides feedback based on correct/incorrect guesses.
 
 ---
 ## Functions
 **shuffleArray(array)**
-  *Purpose*: Shuffles an array of elements randomly.
-  *Parameters*:
-      *array: The array to be shuffled.
-  *Returns*: A new shuffled array.
+-  *Purpose*: Shuffles an array of elements randomly.
+-  *Parameters*:
+      - array: The array to be shuffled.
+-  *Returns*: A new shuffled array.
 
 **isAlphabet(input)**
-  *Purpose: Checks if the given input is a valid alphabetic character.
-  *Parameters:
-      *input: The input string to check.
-  *Returns: true if the input is alphabetic, false otherwise.
+-  *Purpose*: Checks if the given input is a valid alphabetic character.
+-  *Parameters*:
+      - input: The input string to check.
+-  *Returns*: true if the input is alphabetic, false otherwise.
   
 **reset()**
-  *Purpose: Resets the game state, including the counter for tries, mistakes, and updates the UI elements accordingly.
-  *Parameters: None
-  *Returns: None
+-  *Purpose*: Resets the game state, including the counter for tries, mistakes, and updates the UI elements accordingly.
+-  *Parameters*: None
+-  *Returns*: None
 
 **scrambleWord()**
-  *Purpose: Selects a random word from the list, splits it into characters, shuffles it, and updates the UI.
-  *Parameters: None
-  *Returns: None
+-  *Purpose*: Selects a random word from the list, splits it into characters, shuffles it, and updates the UI.
+-  *Parameters*: None
+-  *Returns*: None
 
 **updateDots(counter)**
-  *Purpose: Updates the tries section of the UI with a visual indicator of the number of tries taken (represented as dots).
-  *Parameters:
-  *counter: The number of tries taken.
-  *Returns: None
+-  *Purpose*: Updates the tries section of the UI with a visual indicator of the number of tries taken (represented as dots).
+-  *Parameters*: 
+     - counter: The number of tries taken.
+-  *Returns*: None
   
 
 ## Contact
