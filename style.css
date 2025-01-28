@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("resources/bg-guess-the-word.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Outfit", serif;
+  color: #f2f5f9;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+footer {
+  display: relative;
+  bottom: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+
+.main-container {
+  background-color: #030616;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 25px;
+}
+
+svg {
+  margin: 0.8rem 0;
+}
+
+.scrambled-word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  width: 22rem;
+  height: 4rem;
+  background-color: #4a5567;
+  border-radius: 0.5rem;
+  color: #f2f5f9;
+  font-size: 2rem;
+  box-shadow: 0px 4px 0px 0px #030616;
+}
+
+.error-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0.4rem 0;
+}
+
+.words-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+input {
+  margin: 2px 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #4a5567;
+  background: none;
+  outline: none;
+  color: #f2f5f9;
+  font-size: 2rem;
+  text-align: center;
+  caret-shape: #f2f5f9 underscore;
+}
+
+button {
+  background-color: #c951e7;
+  width: 8.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  color: #f2f5f9;
+  border: none;
+  font-size: 0.875rem;
+  filter: drop-shadow(0px 4px 0px #7b248a);
+  margin: 0 0.75rem;
+}
+
+input:focus {
+  border-color: #672171;
+  caret-shape: #f2f5f9 underscore;
+}
+
+.dot {
+  background-color: red;
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  color: #4a5567;
+  margin: 0 2px;
+}
+
+.tries {
+  display: flex;
+  align-items: center;
+}
+
+.tries p {
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #bc4bd8;
+}
