@@ -1,6 +1,8 @@
 # Word Scramble Game
 
-A fun and interactive word scramble game that challenges users to guess a scrambled word by typing the correct letters into individual input fields. The game includes a limited number of tries and tracks mistakes, providing feedback to users in real time.
+Scramble the Word is a fun and interactive word puzzle game where users attempt to guess a scrambled word within 5 tries. The game provides feedback on incorrect guesses, keeps track of mistakes, and resets if the maximum attempts are reached.
+
+You can play the game online [here](https://scrambletheword.netlify.app/).
 
 <img width="949" alt="guesstheword" src="https://github.com/user-attachments/assets/ab7ae7b3-310c-4b03-b825-b8333b0bfe28" />
 ---
