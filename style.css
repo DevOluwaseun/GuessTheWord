@@ -7,6 +7,7 @@
 body {
   min-height: 100vh;
   background-image: url("resources/bg-guess-the-word.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
